@@ -239,7 +239,7 @@ const Product = () => {
                         </button>
 
                         <Link
-                          to={`/product/${product.productId}`}
+                          to={`/products/${product.productId}`}
                           className="btn btn-primary flex-fill fw-semibold"
                         >
                           <i className="bi bi-eye-fill me-2"></i>
